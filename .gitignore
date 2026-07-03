@@ -1,0 +1,28 @@
+# Maven and build files
+/backend/target/
+/backend/.mvn/
+/backend/mvnw.cmd
+/backend/mvnw
+
+# IDE files
+*.iml
+*.ipr
+*.iws
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+backend/spring.log
+
+# H2 database files
+backend/**/hsqldb*.data
+backend/**/hsqldb*.properties
